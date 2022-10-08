@@ -3,11 +3,11 @@
   <title>泽奕_Blog</title>
   <icon>https://www.gravatar.com/avatar/3c9a0ef8dbe4ded7e333822a60a07561</icon>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://zeyiapp.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://zeyiapp.github.io/"/>
   <updated>2022-10-08T04:57:50.666Z</updated>
-  <id>http://example.com/</id>
+  <id>https://zeyiapp.github.io/</id>
   
   <author>
     <name>泽奕</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/posts/4a17b156.html"/>
-    <id>http://example.com/posts/4a17b156.html</id>
+    <link href="https://zeyiapp.github.io/posts/4a17b156.html"/>
+    <id>https://zeyiapp.github.io/posts/4a17b156.html</id>
     <published>2022-10-08T03:05:13.426Z</published>
     <updated>2022-10-08T04:57:50.666Z</updated>
     
