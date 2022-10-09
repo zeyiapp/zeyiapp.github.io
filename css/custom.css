@@ -379,3 +379,8 @@ button:not(:disabled) {
 #article-container figure.highlight {
     border-radius: 10px;
 }
+
+.loading-img {
+    background: url(https://jsd.anzhiy.cn/npm/anzhiyu-blog@2.1.1/img/avatar.webp) no-repeat center center;
+    background-size: cover;
+}

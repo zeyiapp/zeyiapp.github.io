@@ -6,7 +6,7 @@
   <link href="https://zeyiapp.github.io/atom.xml" rel="self"/>
   
   <link href="https://zeyiapp.github.io/"/>
-  <updated>2022-10-08T10:18:31.550Z</updated>
+  <updated>2022-10-09T17:13:17.339Z</updated>
   <id>https://zeyiapp.github.io/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>逆序的三位数</title>
+    <link href="https://zeyiapp.github.io/posts/80a2e0c2.html"/>
+    <id>https://zeyiapp.github.io/posts/80a2e0c2.html</id>
+    <published>2022-10-09T16:51:14.043Z</published>
+    <updated>2022-10-09T17:13:17.339Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第2周：计算"><a href="#第2周：计算" class="headerlink" title="第2周：计算"></a>第2周：计算</h1><blockquote><p>MOOC 程序设计入门—C语言（浙江大学 翁恺）  代码仅供参考</p></blockquote><ul><li>逆序的三位数（5分）<br>题目内容：<br>逆序的三位数：</li></ul><p>程序每次读入一个正三位数，然后输出逆序的数字。注意，当输入的数字含有结尾的0时，输出不应带有前导的0。比如输入700，输出应该是7。</p><p>提示：用%10可以得到个位数，用/100可以得到百位数…。将这样得到的三个数字合起来：百位<em>100+十位</em>10+个位，就得到了结果。</p><p>注意：除了题目要求的输出，不能输出任何其他内容，比如输入时的提示，输出时的说明等等都不能。这道题目要求输出逆序的数字，程序就只能输出这个数字，除此之外任何内容都不能输出。</p><p>输入格式:</p><p>每个测试是一个3位的正整数。</p><p>输出格式：</p><p>输出逆序的数。</p><p>输入样例：</p><p>123</p><p>输出样例：</p><p>321</p><p>时间限制：500ms内存限制：32000kb<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="type">int</span> a, b, c, x;</span><br><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;x);</span><br><span class="line">a = x / <span class="number">100</span>;</span><br><span class="line">b = x % <span class="number">100</span> / <span class="number">10</span>;</span><br><span class="line">c = x % <span class="number">10</span>;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, c * <span class="number">100</span> + b * <span class="number">10</span> + a);</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>这一期答案太过于简单博主并没有什么想说的…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第2周：计算&quot;&gt;&lt;a href=&quot;#第2周：计算&quot; class=&quot;headerlink&quot; title=&quot;第2周：计算&quot;&gt;&lt;/a&gt;第2周：计算&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;MOOC 程序设计入门—C语言（浙江大学 翁恺）  代码仅供参考&lt;/p&gt;
+&lt;/bl</summary>
+      
+    
+    
+    
+    
+    <category term="程序设计入门—C语言（浙江大学 翁恺）" scheme="https://zeyiapp.github.io/tags/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E2%80%94C%E8%AF%AD%E8%A8%80%EF%BC%88%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6-%E7%BF%81%E6%81%BA%EF%BC%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>输出“Hello World”</title>
+    <link href="https://zeyiapp.github.io/posts/0.html"/>
+    <id>https://zeyiapp.github.io/posts/0.html</id>
+    <published>2022-10-09T15:47:39.422Z</published>
+    <updated>2022-10-09T17:05:53.807Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第1周：程序设计与C语言"><a href="#第1周：程序设计与C语言" class="headerlink" title="第1周：程序设计与C语言"></a>第1周：程序设计与C语言</h1><blockquote><p>MOOC 程序设计入门—C语言（浙江大学 翁恺）  代码仅供参考</p><ul><li>输出“Hello World”（5分）<br>题目内容：<br>请输出一行，内容为<br>Hello World<br>请注意大小写。</li></ul></blockquote><p>由于这一周只是简单地介绍了C程序的基本框架，还不能做很多事情，甚至还不能做数据的输入，所以这一周的题目也非常简单。<br>第二周会仔细介绍如何在中M和拼题A做题，如果你一时无法搞定如何提交这周的作业，没关系，可以先在在线编程环境或IDE中做好程序，下周学过之后再来提交作业。我们所有的作业的截止时间都是到2018年12月31号晚上。所以，你可以慢慢来，一点点能跟上来就可以了。</p><p>输入格式:<br>无输入</p><p>输出格式：<br>一行文字</p><p>输入样例：<br>无</p><p>输出样例：<br>Hello World</p><p>时间限制：500ms内存限制：32000kb<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"> <span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"> <span class="built_in">printf</span>(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>之后关于 翁恺 的答案会陆续发布敬请期待<br>这一期答案太过于简单博主并没有什么想说的…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第1周：程序设计与C语言&quot;&gt;&lt;a href=&quot;#第1周：程序设计与C语言&quot; class=&quot;headerlink&quot; title=&quot;第1周：程序设计与C语言&quot;&gt;&lt;/a&gt;第1周：程序设计与C语言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;MOOC 程序设计入门—C语言（浙</summary>
+      
+    
+    
+    
+    
+    <category term="程序设计入门—C语言（浙江大学 翁恺）" scheme="https://zeyiapp.github.io/tags/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8%E2%80%94C%E8%AF%AD%E8%A8%80%EF%BC%88%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6-%E7%BF%81%E6%81%BA%EF%BC%89/"/>
+    
+  </entry>
   
   <entry>
     <title>愿未来可期</title>
